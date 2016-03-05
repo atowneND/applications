@@ -1,0 +1,251 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Plasmati Graduate CV
+% LaTeX Template
+% Version 1.0 (24/3/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Alessandro Plasmati (alessandro.plasmati@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template needs to be compiled with XeLaTeX.
+% The main document font is called Fontin and can be downloaded for free
+% from here: http://www.exljbris.com/fontin.html
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,10pt]{article} % Default font size and paper size
+
+\usepackage{fontspec} % For loading fonts
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin} % Main document font
+
+\usepackage{xunicode,xltxtra,url,parskip} % Formatting packages
+
+\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
+
+\usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be \usepackage{fullpage}
+% To reduce the height of the top margin uncomment: \addtolength{\voffset}{-1.3cm}
+\addtolength{\voffset}{-1.3cm}
+
+\usepackage{hyperref} % Required for adding links	and customizing them
+\definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
+
+\usepackage{titlesec} % Used to customize the \section command
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
+\titlespacing{\section}{0pt}{1pt}{1pt} % Spacing around sections
+
+\usepackage{float,tabularx}
+    \newcolumntype{Y}{>{\raggedleft\arraybackslash}X}
+    \newcolumntype{Z}{>{\centering\arraybackslash}X}
+
+\begin{document}
+
+\pagestyle{empty} % Removes page numbering
+
+\font\fb=''[cmr10]'' % Change the font of the \LaTeX command under the skills section
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\par{\centering{\Huge Ashley \textsc{Towne}}\bigskip\par} % Your name
+
+%\section{Personal Data}
+
+\begin{tabularx}{\textwidth}{XZY}
+    Current Address: & atowne@nd.edu & Permanent Address:\\
+    28-1B Fischer Grad Houses & 703-887-5568 & 2721 S. Lindbergh St.\\
+    Notre Dame, IN 46556 & & JBMDL, NJ 08641
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE 
+%----------------------------------------------------------------------------------------
+
+\section{Work Experience}
+
+\begin{tabular}{r|p{11cm}}
+\textsc{Summer 2015} & NSF Research Experience for Undergraduates \\
+\textsc{Research Assistant} & \emph{Lehigh University, PA}\\ 
+& \footnotesize{Molecular physics - studied collisions He + NaK and Ar + NaK,
+looking for physical interpretations and expanding the vector model of angular
+momentum}\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textsc{Summer 2014} & Adaptive Methods \\
+\textsc{Signal Processing Intern} & \emph{Centreville, VA}\\ 
+%\textsc{Intern} & \emph{Centreville, VA}\\ 
+& \footnotesize{Analyzed sonar data in the frequency and time domains.
+Implemented code for conventional and adaptive beamforming, dominant mode
+rejection with mismatch protection, minimum variance distortionless response.}\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textsc{Summer 2013} & Nano Undergraduate Research Fellowship \\
+\textsc{Research Assistant} & \emph{University of Notre Dame, IN}\\ 
+& \footnotesize{Operated a network analyzer and used a microscope and probes to
+measure data. Modeled equivalent circuits in Matlab and IC-CAP to characterize gallium
+nitride transistors for the EEHEMT (high electron mobility transport) model.}\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textsc{Summer 2012} & Systems Planning \& Analysis\\
+\textsc{Operations Research Intern} & \emph{Alexandria, VA}\\ 
+%\textsc{Intern} & \emph{Alexandria, VA}\\ 
+& \footnotesize{Provided operations research and systems analysis support to
+Headquarters Marine Corps (HQMC) and the United States Air Force (USAF). 
+Developed database to assess budget planning and execution for HQMC\@.
+Developed a decision support database for the USAF to assess functional
+capabilities.}\\
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\begin{tabular}{rl}	
+\textsc{May 2016 (expected)}& Bachelor of Science (dual degree), \textbf{University of Notre Dame}\\
+& Majors: Electrical Engineering and Physics\\
+&\normalsize \textsc{Gpa}: 3.4
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS
+%----------------------------------------------------------------------------------------
+
+\section{Publications}
+
+\emph{Semiclassical Model for the Distribution of Final Polar Angles and $m'$
+States in Rotationally Inelastic Collisions}, T. J.
+Price, A. C. Towne, D. Talbi, A. P. Hickman,
+    manuscript accepted by Chemical Physics Letters (Dec 2015)
+
+%----------------------------------------------------------------------------------------
+%   WORK STUDY	
+%----------------------------------------------------------------------------------------
+
+\section{Work Study}
+
+\begin{tabular}{lr}
+    \textsc{Office Assistant, College of Science, Office of the Dean}&{2011-2014}\\
+    \textsc{Business Manager for the Notre Dame Folk Choir}&{2012-2013}
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS 
+%----------------------------------------------------------------------------------------
+
+\section{Computer Skills}
+
+\begin{tabular}{rl}
+    \textsc{C}, \textsc{Bash shell scripting}, {\fb \LaTeX}, \textsc{Python},
+    \textsc{Matlab}, \textsc{sql}, \textsc{Word}, \textsc{Excel},
+    \textsc{Access}, \textsc{PowerPoint} \setmainfont[SmallCapsFont=Fontin SmallCaps]{Fontin-Regular}\\
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	ACTIVITIES
+%----------------------------------------------------------------------------------------
+
+\section{Activities}
+
+University of Notre Dame Folk Choir\\
+University of Notre Dame Milkshake Mass Choir
+
+%----------------------------------------------------------------------------------------
+%	COURSEWORK
+%----------------------------------------------------------------------------------------
+
+\section{Coursework}
+
+\textbf{Electrical Engineering: }\textsc{Electric Circuits, Electronics,
+    Semiconductor Fundamentals, Signals and Systems, Electronic and
+    Optoelectronic Devices, Random Phenomena in Electrical Engineering,
+    Photonics, Digital Signal Processing, Audio Technology, Operating Systems
+    Principles, Intro to Digital Forensics, Compilers, Introduction to Quantum
+Computing (Spring 2016)}\\
+\textbf{Physics: }\textsc{Physics I (mechanics), II (electricity and magnetism),
+    and III (modern physics), Astronomy and Astrophysics, Intermediate Classical
+    Mechanics, Thermal Physics, Electricity and Magnetism I \& II, Quantum
+    Mechanics I \& II, Modern Physics II, Modern Physics I Lab, Relativity:
+    Special and General (Spring 2016), Particle Physics and Cosmology (Spring
+2016)}
+
+%----------------------------------------------------------------------------------------
+
+%\newpage
+%
+%%----------------------------------------------------------------------------------------
+%%	GRADE TABLES
+%%----------------------------------------------------------------------------------------
+%
+%\par{\centering\Large \hypertarget{grds}{Master of Science in \textsc{Finance}}\par}\large{\centering Grades\par}\normalsize
+%
+%\begin{center}
+%\begin{tabular}{lcc}
+%\multicolumn{1}{c}{\textsc{Exam}} & \textsc{Grade}&\textsc{Credit Hrs}\\ \hline
+%Corporate Finance (Valuation) & 25 & 6\\
+%Financial Statement Analysis & 28 & 6\\
+%Statistics & 27 & 6\\
+%Theory of Finance & 26 & 6\\
+%Quantitative Methods for Finance & 30 & 6\\
+%Econometrics & 24 & 6\\
+%Derivatives & 31 & 6\\
+%Management of Financial and Insurance Companies & 30 & 6\\
+%Business Law & 31 & 6\\
+%Investment Banking	& 28 & 6\\ \\		
+%Behavioral Models for Economics and Finance	 & 29 & 6\\
+%Numerical Methods for Finance & 29 & 6\\
+%Advanced Derivatives & 30 & 6\\
+%Fixed Income (Advanced Methods) & 30 & 6\\ \\
+%English Language & 30 &	4\\
+%French Language & 31 &	4\\	
+%Internship & & 8\\		
+%Final Thesis & & 20\\	
+%& Total & 120\\\cline{2-3}
+%&\textsc{Gpa}&\textbf{8.0}
+%\end{tabular}
+%\end{center}
+%\bigskip
+%\hrule
+%\bigskip
+%
+%%------------------------------------------------
+%
+%\bigskip
+%
+%\par{\centering\Large \hypertarget{grds_usc}{Exchange Program at \textsc{usc}, Los Angeles}\par}\large{\centering Grades\par}\normalsize
+%
+%\begin{center}
+%\begin{tabular}{lcc}
+%\multicolumn{1}{c}{\textsc{Exam}} & \textsc{Grade} & \textsc{Grade Points}\\ 
+%\hline
+%Corporate Financial Strategy & A & 4\\
+%Derivatives & A & 4\\
+%Money, Credit, and Banking & A & 4\\
+%Business Strategy & A- & 3.5\\
+%& &\\\cline{2-3}
+%& \textsc{Gpa} & \textbf{3.875}
+%\end{tabular}
+%\end{center}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}

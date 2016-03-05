@@ -1,0 +1,9 @@
+#!/bin/bash
+
+filename=$1
+if [ -z $filename ]; then
+    echo Invalid file name
+    exit
+fi
+
+rm $filename\.aux $filename\.log 2>/dev/null
